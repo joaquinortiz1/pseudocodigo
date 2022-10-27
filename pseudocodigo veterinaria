@@ -1,0 +1,34 @@
+class Animals
+{
+    ##Atributos##
+    id= #identificacion,poner rut del cliente en caso de que el animal no tenga ID
+    species='' #especie perro, gato, raton, caballo, etc
+    race='' #raza Bull terrie
+    name='' #nombre
+    weight=0 #peso grm
+    height= #altura cm
+    age= #edad meses
+    birthday= #fecha de nacimiento
+    decease_day= #fecha de fallecimiento
+    condition='' #condicion
+    observation='' #observaciones generales segun la llegada del animal
+    chip= #campo booleano true o falso saber si tiene chip
+    id_chip= #identificador del chip, googlear o no
+    vaccun= #vacunas
+    sterilization= #esterilizacion
+    
+    
+    ##Fin seccion Atributos##
+    
+    ##Metodos(funcion)##
+    change_weight(int newweight) #cambia peso mascota, recordar que es en gramos
+    change_age(int newage) #cambia edad de mascota
+    change_height(int newheight) #cambia altura de mascota
+    change_condition(int newcondition) #cambia condicion de mascota
+    
+    
+    ##Fin seccion Metodos##
+
+
+
+}
